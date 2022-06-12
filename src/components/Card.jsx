@@ -38,7 +38,7 @@ export const Card = ({ users, newUser }) => {
 			case 'user':
 				setTextos({
 					parrafo: 'Hi, My name is',
-					main: `${users[actual].name.title}, ${users[actual].name.first} ${users[actual].name.last}`,
+					main: `${users[actual].name.title} ${users[actual].name.first} ${users[actual].name.last}`,
 					icono: 'user',
 				});
 				break;
